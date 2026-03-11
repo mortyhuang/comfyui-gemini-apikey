@@ -68,7 +68,7 @@ class GeminiNanoBanana2_APIKey:
                     "tooltip": "Text prompt describing the image."
                 }),
                 "model": (["Nano Banana 2 (Gemini 3.1 Flash Image)"], {"default": "Nano Banana 2 (Gemini 3.1 Flash Image)"}),
-                "seed": ("INT", {"default": 42, "min": 0, "max": 0xFFFFFFFFFFFFFFFF, "control_after_generate": True}),
+                "seed": ("INT", {"default": 42, "min": 0, "max": 2147483647, "control_after_generate": True}),
                 "aspect_ratio": ([
                     "auto", "1:1", "2:3", "3:2", "3:4", "4:3", "4:5", "5:4", "9:16", "16:9", "21:9"
                 ], {"default": "auto"}),
